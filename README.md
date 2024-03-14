@@ -11,11 +11,11 @@
 
 **demo-keycloak-resource** is SpringBoot project, data server with validation by the user role.
 
-There are content available for
-                        - all users
-                        - authenticated users
-                        - authenticated users with role user
-                        - authenticated users with role admin
+There are content available for \
+- all users
+- authenticated users
+- authenticated users with role user
+- authenticated users with role admin
 
 The user is redirected to the authorization page, where they are asked for permissions for the application to work with their account data.
 

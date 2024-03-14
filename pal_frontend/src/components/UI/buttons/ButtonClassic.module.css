@@ -1,0 +1,33 @@
+@import "../../../resources/styles.css";
+
+.buttonClassic {
+    position: static;
+    height: 40px;
+    background-color: var(--main-button-color);
+    color: var(--main-button-text-color);
+    transition: background-color 0.5s;
+    border: 0px;
+    border-radius: 6px;
+    flex: none;
+    align-self: stretch;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
+    margin: 10px;
+}
+.buttonClassic:hover {
+    background-color: var(--main-button-color-hover);
+    cursor: pointer;
+}
+.buttonClassic:active {
+    background-color: var(--main-button-color-active);
+    transition: none;
+    cursor: pointer;
+}
+.buttonClassic:focus {
+    box-shadow: var(--main-line-shadow);
+    outline: none;
+}
+.buttonClassic:disabled {
+    background-color: var(--main-color-disabled);
+    pointer-events: none;
+}

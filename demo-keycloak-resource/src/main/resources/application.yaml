@@ -1,0 +1,9 @@
+server:
+  port: ${SERVER_PORT:5450}
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          #jwk-set-uri: ${KEYCLOAK_REALM_CERT_URL:http://localhost:5436/auth/realms/my_realm/protocol/openid-connect/certs}
+          jwk-set-uri: ${KEYCLOAK_REALM_CERT_URL:http://localhost:8282/realms/myrealm/protocol/openid-connect/certs}
